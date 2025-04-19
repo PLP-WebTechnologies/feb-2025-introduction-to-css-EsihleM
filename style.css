@@ -1,1 +1,60 @@
+/* Style the body with a background color and a different font */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style elements using a class selector */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Style an image */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #aaa;
+    margin-bottom: 20px;
+}
+
+/* Style using an ID selector */
+#header {
+    text-align: center;
+    font-size: 2em;
+    color: #4CAF50;
+    margin-top: 30px;
+}
+
+/* Style a paragraph with margins and padding */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+/* Style a button with padding, background color, and hover effect */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
 
